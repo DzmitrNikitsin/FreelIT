@@ -13,7 +13,7 @@ public class Task2 {
     public static void main(String[] args) {
         int a = 10;
         int b = 10;
-        int c = 12;
+        int c = 14;
 
         if (a + b > c){
             System.out.println("Триугольник существует ");
