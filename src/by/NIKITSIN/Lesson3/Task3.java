@@ -9,6 +9,9 @@ public class Task3 {
         Random random = new Random();
         for (int i = 0; i <array.length; i++){
             array[i] = random.nextInt(1 - -99);
+            if ((array[i] % 2) == 0){
+                System.out.println(Arrays.toString(array));
+            }
 
         }
         System.out.println(Arrays.toString(array));
